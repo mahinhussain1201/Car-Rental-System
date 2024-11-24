@@ -21,6 +21,7 @@ Before running the program, ensure that the following dependencies are installed
      - For Linux or Windows, follow platform-specific instructions to install the MySQL C++ connector.
 
 4. **Environment Variable**: Set the `MYSQL_PASSWORD` environment variable with the MySQL root password, as the program uses this password to connect to the database.
+<img width="789" alt="Screenshot 2024-11-25 at 02 06 13" src="https://github.com/user-attachments/assets/3dbe6bba-2f8f-4979-ba67-59c2c0476a4c">
 
 ### MySQL Database Setup
 
@@ -45,4 +46,3 @@ INSERT INTO cars (Serial, Brand, Model, Rent, Avail) VALUES
 (1234, 'Maruti Suzuki', 'Dzire', 400, TRUE),
 (789, 'Maruti Suzuki', 'WagonR', 100, TRUE),
 (000, 'Maruti Suzuki', 'Alto', 10, FALSE);
-<img width="789" alt="Screenshot 2024-11-25 at 02 06 13" src="https://github.com/user-attachments/assets/3dbe6bba-2f8f-4979-ba67-59c2c0476a4c">
